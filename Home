@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Public Library</title>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>City Public Library</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <!-- Library Introduction -->
+    <section id="home">
+      <h2>Welcome to City Public Library</h2>
+      <p>
+        The City Public Library provides access to a vast collection of books, digital resources, and community programs. Our mission is to inspire lifelong learning and enrich our community.
+      </p>
+      <img src="library.jpg" alt="City Public Library Building" style="max-width: 100%;">
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <h2>Library Services</h2>
+      <article>
+        <h3>What We Offer</h3>
+        <ul>
+          <li>Access to books, eBooks, and audiobooks</li>
+          <li>Free Wi-Fi and computer access</li>
+          <li>Storytime sessions for children</li>
+          <li>Workshops and community events</li>
+        </ul>
+        <p>
+          Explore our <a href="https://www.examplelibrarycatalog.com" target="_blank">online catalog</a> to find your next read.
+        </p>
+      </article>
+    </section>
+
+    <!-- Multimedia Section -->
+    <section>
+      <h2>Learn About Us</h2>
+      <p>Watch our library promotional video to learn more:</p>
+      <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/samplevideo" 
+        title="Library Promotional Video" 
+        allowfullscreen>
+      </iframe>
+      <p>
+        Download our <a href="library-brochure.pdf" target="_blank">library brochure</a> for more information about our services.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer id="contact">
+    <h2>Contact Us</h2>
+    <address>
+      City Public Library<br>
+      123 Library Lane<br>
+      Booktown, BK 12345<br>
+      Phone: (555) 123-4567<br>
+      Email: <a href="mailto:info@citylibrary.com">info@citylibrary.com</a>
+    </address>
+    <p>
+      Follow us on 
+      <a href="https://www.facebook.com/citylibrary" target="_blank">Facebook</a> and 
+      <a href="https://www.twitter.com/citylibrary" target="_blank">Twitter</a>.
+    </p>
+  </footer>
+</body>
+</html>
