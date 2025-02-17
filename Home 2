@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>San Tan Valley Public Library</title>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>San Tan Valley Public Library</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <!-- Library Introduction -->
+    <section id="home">
+      <h2>Welcome to San Tan Valley Public Library</h2>
+      <p>
+        The San Tan Valley Public Library is dedicated to providing free access to books, digital resources, and community programs that inspire lifelong learning and connection.
+      </p>
+      <img src="library.jpg" alt="San Tan Valley Public Library Building" style="max-width: 100%;">
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <h2>Library Services</h2>
+      <article>
+        <h3>What We Offer</h3>
+        <ul>
+          <li>Books, eBooks, and audiobooks</li>
+          <li>Free Wi-Fi and computer access</li>
+          <li>Storytime and literacy programs for children</li>
+          <li>Workshops, events, and community activities</li>
+        </ul>
+        <p>
+          <a href="https://pinal.polarislibrary.com/polaris/default.aspx?ctx=1.1033.0.0.5" target="_blank">
+            Explore Our Catalog
+          </a>
+        </p>
+      </article>
+    </section>
+
+    <!-- Multimedia Section -->
+    <section>
+      <h2>Virtual Storytime</h2>
+      <p>Enjoy our virtual storytime series from the comfort of your home:</p>
+      <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/videoseries?list=PLJEsTctmt_f4LBoHZaA4mGIbSlo5k7pJA" 
+        title="San Tan Valley Public Library Virtual Storytime" 
+        allowfullscreen>
+      </iframe>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer id="contact">
+    <h2>Contact Us</h2>
+    <address>
+      San Tan Valley Public Library<br>
+      31505 N Schnepf Rd<br>
+      San Tan Valley, AZ 85140<br>
+      Phone: <a href="tel:+15208668035">(520) 866-8035</a><br>
+      Email: <a href="mailto:info@santanvalleylibrary.com">info@santanvalleylibrary.com</a>
+    </address>
+    <p>
+      Follow us on 
+      <a href="https://www.facebook.com/citylibrary" target="_blank">Facebook</a> and 
+      <a href="https://www.twitter.com/citylibrary" target="_blank">Twitter</a>.
+    </p>
+  </footer>
+</body>
+</html>
